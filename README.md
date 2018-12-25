@@ -2,6 +2,11 @@
 
 This repository contains a port of the v3.1.0 version of Proxmark firmware to be used in pm3-lcd v1.17 by d18c7db.
 
+IMPORTANT: Pin assignment on both the CPU and FPGA is different from original Proxmark3.
+           DO NOT use original firmware on PM3LCD.
+           DO NOT use PM3LCD firmware on original Proxmark3.
+           Your hardware may be permanently damaged!!!!
+
 ## Resources
 
 * [Proxmark repository!](https://github.com/Proxmark/proxmark3)
