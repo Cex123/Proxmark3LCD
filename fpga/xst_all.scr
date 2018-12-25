@@ -1,0 +1,1 @@
+run -ifn fpga_all.v -ifmt Verilog -ofn fpga_all.ngc -ofmt NGC -p xc3s250e-4-vq100 -top fpga_all -opt_mode area -opt_level 2 -resource_sharing yes -fsm_style bram -fsm_encoding compact
